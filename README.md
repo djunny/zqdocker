@@ -8,4 +8,4 @@
 
 # 如何使用
 - clone 掌圈项目
-- 运行docker-compose up -d
+- 切换到项目路径下 && 运行docker-compose up -d
