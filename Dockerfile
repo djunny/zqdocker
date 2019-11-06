@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y libpng-dev libjpeg-dev libpq-dev libfre
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # 安装php扩展
-RUN docker-php-ext-install gd pdo_mysql pdo_pgsql pgsql exif mysqli bcmath mbstring \
+RUN docker-php-ext-install gd pdo_mysql pdo_pgsql pgsql exif mysqli bcmath \
     && printf "\n" | pecl install redis && docker-php-ext-enable redis \
     && pecl install msgpack && docker-php-ext-enable msgpack \
     && printf "\n" | pecl install swoole && docker-php-ext-enable swoole \
