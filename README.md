@@ -11,8 +11,13 @@
 
 
 # 如何使用
+- 安装docker desktop for mac
+- 设置docker中国镜像  `preference => daemon => registry mirrors`
+```shell
+http://registry.docker-cn.com
+```
+- 将项目的父级目录加入共享中 `preference => file sharing`
 - clone 掌圈项目
-- 切换到项目路径下 && 运行docker-compose up -d
 - 配置nginx反向代理
 ```nginx
 server {
@@ -29,6 +34,7 @@ server {
   }
 }
 ```
+- 切换到项目路径下 && 运行docker-compose up -d
 - 修改host文件
 ```
 127.0.0.1 zquan.com www.zquan.com 0c1d.com xhjd.0c1d.com
