@@ -28,5 +28,5 @@ server {
     proxy_pass_request_headers on;
   }
 }
-
 ```
+- 修改host文件
