@@ -30,3 +30,6 @@ server {
 }
 ```
 - 修改host文件
+```
+127.0.0.1 zquan.com www.zquan.com 0c1d.com xhjd.0c1d.com
+```
