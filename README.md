@@ -17,7 +17,7 @@
 ```nginx
 server {
   listen 80;
-  server_name zquan.cc *.zquan.cc zquan.com *.zquan.com 0cld.com *.0cld.com;
+  server_name zquan.cc *.zquan.cc zquan.com *.zquan.com 0c1d.com *.0c1d.com;
 
   location / {
     proxy_pass http://127.0.0.1:7788;
