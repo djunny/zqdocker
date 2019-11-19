@@ -14,7 +14,7 @@
 - 安装docker desktop for mac
 - 设置docker中国镜像  `preference => daemon => registry mirrors`
 ```shell
-http://registry.docker-cn.com
+http://docker.mirrors.ustc.edu.cn/
 ```
 - 将项目的父级目录加入共享中 `preference => file sharing`
 - clone 掌圈项目
